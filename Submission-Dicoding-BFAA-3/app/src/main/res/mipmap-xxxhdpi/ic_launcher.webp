@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f412bf4e-848d-4408-84d5-c7aa2ab386b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBroadcastReceiverDicoding/app/src/main/java/com/example/mybroadcastreceiver/PermissionManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBroadcastReceiverDicoding/app/src/main/java/com/example/mybroadcastreceiver/SmsReceiver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBroadcastReceiverDicoding/app/src/main/java/com/example/mybroadcastreceiver/SmsReceiverActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBroadcastReceiverDicoding/app/src/main/res/layout/activity_sms_receiver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyDeepNavigationDicoding/app/src/main/java/com/example/mydeepnavigation/DetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyDeepNavigationDicoding/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServiceDicoding/app/src/main/java/com/example/myservice/MyBoundService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServiceDicoding/app/src/main/java/com/example/myservice/MyJobIntentService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyServiceDicoding/app/src/main/java/com/example/myservice/MyService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/data/local/FavoriteUserDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/data/local/FavoriteUserDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/data/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/data/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/detail/DetailUserActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/detail/DetailUserActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/detail/DetailUserViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/detail/DetailUserViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/main/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/main/UserAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/githubapp/ui/main/UserAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBackgroundThreadDicoding/app/src/main/java/com/example/mybackgroundthread/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBackgroundThreadDicoding/app/src/main/java/com/example/mybackgroundthread/MainActivity.kt" afterDir="false" />
+      <change b
