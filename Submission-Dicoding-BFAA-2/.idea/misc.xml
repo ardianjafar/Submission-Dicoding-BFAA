@@ -3,23 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout-v26/home_fragment.xml" value="0.11175580221997981" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/activity_main.xml" value="0.1193239152371342" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/detail_fragment.xml" value="0.11666666666666667" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/follow_fragment.xml" value="0.11175580221997981" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/home_fragment.xml" value="0.11175580221997981" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/include_empty.xml" value="0.11175580221997981" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/layout/item_user_list.xml" value="0.11666666666666667" />
-        <entry key="..\:/Project Orang/Submission-BFAA2-Dicoding/app/src/main/res/menu/main_menu.xml" value="0.11666666666666667" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout-v26/home_fragment.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/activity_main.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/activity_splash.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/detail_fragment.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/follow_fragment.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/home_fragment.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/include_empty.xml" value="0.1193239152371342" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/layout/item_user_list.xml" value="0.1" />
-        <entry key="..\:/Submission/Android-Submission-BFAA-2/app/src/main/res/menu/main_menu.xml" value="0.1814814814814815" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/drawable/favorite_toggle.xml" value="0.26614583333333336" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/activity_detail_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/activity_favorite.xml" value="0.15307971014492755" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/activity_splash_screen.xml" value="0.12708333333333333" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/fragment_follow.xml" value="0.16666666666666666" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/layout/item_user.xml" value="0.12708333333333333" />
+        <entry key="..\:/GithubUserFix/app/src/main/res/menu/option_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -28,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="GithubUser.app" />
+      </set>
+    </option>
   </component>
 </project>
