@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GithubUser.iml" filepath="$PROJECT_DIR$/.idea/modules/GithubUser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GithubUser.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GithubUser.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GithubApp.iml" filepath="$PROJECT_DIR$/.idea/modules/GithubApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GithubApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GithubApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumerapp/GithubApp.consumerapp.iml" filepath="$PROJECT_DIR$/.idea/modules/consumerapp/GithubApp.consumerapp.iml" />
     </modules>
   </component>
 </project>

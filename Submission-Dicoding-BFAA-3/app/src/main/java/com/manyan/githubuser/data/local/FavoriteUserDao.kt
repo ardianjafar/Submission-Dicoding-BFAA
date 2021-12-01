@@ -1,5 +1,6 @@
 package com.manyan.githubuser.data.local
 
+
 import android.database.Cursor
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
