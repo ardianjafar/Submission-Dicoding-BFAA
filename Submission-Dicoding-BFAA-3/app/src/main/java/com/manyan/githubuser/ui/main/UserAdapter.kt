@@ -35,7 +35,6 @@ class UserAdapter : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
                     .transition(DrawableTransitionOptions.withCrossFade())
                     .centerCrop()
                     .into(ivUser)
-                binding.tvUsername.text
                 tvUsername.text = user.login
             }
         }

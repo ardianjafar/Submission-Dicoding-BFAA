@@ -1,12 +1,13 @@
 package com.manyan.githubuser.ui.main
 
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.KeyEvent
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
+import android.view.*
+import android.widget.TextView
+import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.manyan.githubuser.R
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: MainViewModel
     private lateinit var adapter: UserAdapter
     private lateinit var rvUser: RecyclerView
+    private lateinit var status_text : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,8 +39,9 @@ class MainActivity : AppCompatActivity() {
                     startActivity(it)
                 }
             }
-
         })
+
+        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
         binding.apply {
             rvUser.layoutManager = LinearLayoutManager(this@MainActivity)
@@ -57,8 +60,8 @@ class MainActivity : AppCompatActivity() {
                 return@setOnKeyListener false
             }
         }
-        viewModel.getSearchUsers().observe(this, {
-            if (it != null) {
+        viewModel.getSearchUsers().observe(this,{
+            if (it!=null){
                 adapter.setList(it)
                 showLoading(false)
             }
@@ -82,11 +85,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.option_menu, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.favorite_menu -> {
@@ -94,7 +92,17 @@ class MainActivity : AppCompatActivity() {
                     startActivity(it)
                 }
             }
+            R.id.settings_menu -> {
+                Intent(this, SettingsActivity::class.java).also{
+                    startActivity(it)
+                }
+            }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.option_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }
